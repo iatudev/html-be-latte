@@ -1,1 +1,1 @@
-# html-be-latte
+# Welcome to Be Latte
