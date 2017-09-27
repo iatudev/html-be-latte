@@ -1,0 +1,67 @@
+.testimonials{
+ width: 241px;
+  height: 24px;
+  font-family: PlayfairDisplay;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 0.75;
+  text-align: left;
+   margin: auto;
+  color: #28211f;
+  }
+  .testimonialsimg {
+
+  height: 425px;
+  object-fit: contain;
+  padding-top: 60px;
+}
+.bruno-bergher {
+ border-radius: 50px; 
+margin-left:80%;
+margin-top:30px;
+}
+.chris-parker{
+width 118px;
+height 17 px;
+font-family:PlayfairDisplay;
+font-size:20px;
+font-weight:bold;
+line-height:1.2;
+padding-left:79%;
+color:#f5d76e;
+
+}
+.nisi-elit-consequat{
+width:256px;
+height75px;
+font-family:Lato;
+font-size:16px;
+line-height:1.31;
+text-align:center;
+color:#ffffff;
+padding-left:74%;
+}
+.layer {
+opacity: 0.1;
+  width: 111px;
+  height: 50px;
+ font-family: PlayfairDisplay;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 0.23;
+ margin-left:67%;
+
+  
+}
+.layer1{
+width: 77px;
+  height: 57px;
+  opacity: 0.1;
+  font-family: PlayfairDisplay;
+  font-size: 200px;
+  font-weight: bold;
+  line-height: 0.11;
+  text-align: left;
+ 
+  margin-left:90%;
+}
