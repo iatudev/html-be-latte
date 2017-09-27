@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+.Location {
+  width: 167px;
+  height: 84px;
+  font-family: PlayfairDisplay;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 0.75;
+  text-align: left;
+  color: #28211f;
+  color: var(--black);
+  margin:auto;
+}
+.Location2 {
+  margin-left:50px;
+  margin-top:59px;
+  width: 105px;
+  height: 24px;
+  font-family: PlayfairDisplay;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: left;
+  color: #28211f;
+  color: var(--black);
+}
+.houston-city {
+  width: auto;
+  height: 425px;
+  object-fit: contain;
+}
+.left{
+	background-color: #f5d76e;
+	float:left;
+	width: 36%;
+    height: 425px;
+	margin-left:15px;
+}
+.right{
+    height: 425px;
+	width:calc(64% - 30px);
+	float:right;
+	margin-right:15px;
+}
+.Place {
+  margin-top:23px;
+  margin-left:50px;
+  width: 80%;
+  height: 38px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: left;
+  color: #28211f;
+  color: var(--black);
+}
+.Hours {
+	margin-top:37px;
+  margin-left:50px;
+  width: 80%;
+  height: 16px;
+  font-family: PlayfairDisplay;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: left;
+  color: #28211f;
+  color: var(--black);
+}
+.Mon---Sat {
+	margin-top:27px;
+  margin-left:50px;
+  width: 80%;
+  height: 12px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.75;
+  text-align: left;
+  color: #28211f;
+  color: var(--black);
+}
+.Sunday {
+	margin-top:19px;
+  margin-left:50px;
+  width: 80%;
+  height: 15px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.75;
+  text-align: left;
+  color: #28211f;
+  color: var(--black);
+}
+.happy-hour {
+	margin-top:44px;
+  margin-left:50px;
+  width: 80%;
+  height: 16px;
+  font-family: PlayfairDisplay;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: left;
+  color: #28211f;
+  color: var(--black);
+}
+.Mon---Fri {
+  margin-top:27px;
+  margin-left:50px;
+  width: 80%;
+  height: 12px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.75;
+  text-align: left;
+  color: #28211f;
+  color: var(--black);
+}
