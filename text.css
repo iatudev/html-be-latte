@@ -1,0 +1,28 @@
+.Background {
+  width: 1300px;
+  height: 3500px;
+}
+.Coffee-never-tasted-so-good {
+  width: 57%;
+  height: 33px;
+  font-family: PlayfairDisplay;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 0.75;
+  letter-spacing: 0.8px;
+  margin:auto;
+  color: #2f2f2f;
+}
+.Coffee-never-tasted-so-good .text-style-1 {
+  font-weight: 900;
+}
+
+.Morbi-accumsan-ipsum-velit-Nam-nec-tellus-a-odio-tincidunt-auc {
+  width: 58%;
+  height: 61px;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.5;
+  margin:auto;
+  color: #28211f;
+}
