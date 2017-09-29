@@ -45,8 +45,86 @@
  .navigation>li:first-child>a{
      color:#f5d76e;
  }
-
-/**Подвал*/
+/*Location*/
+.location-houston-city {
+    width: auto;
+    height: 425px;
+    object-fit: contain;
+	padding-bottom: 15px;
+}
+.location-left {
+    background-color: #f5d76e;
+    float:left;
+    width: 36%;
+    height: 425px;
+    margin-left:15px;
+}
+.location-right {
+    height: 425px;
+    width:calc(64% - 30px);
+    float:right;
+    margin-right:15px;
+}
+.location {
+    text-transform:uppercase;
+    width: 167px;
+    height: 84px;
+    font-family: PlayfairDisplay;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 0.75;
+    text-align: left;
+    color: #28211f;
+    margin:auto;
+	padding-top: 80px;
+}
+.location-menu-max {
+    text-transform:uppercase;
+    margin-left:50px;
+    height: 24px;
+    font-family: PlayfairDisplay;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: left;
+    color: #28211f;
+}
+.location2 {
+    margin-top:59px;
+    width: 105px;
+}
+.hours {
+    margin-top:37px;
+    height: 16px;
+}
+.happy-hour {
+    margin-top:44px;
+    height: 16px;
+}
+.location-menu-min {
+    margin-left:50px;
+    width: 80%;
+    font-family: Lato;
+    font-size: 16px;
+    color: #28211f;
+    text-align: left;
+    line-height: 1.75;
+    font-weight: bold;
+}
+.place {
+    margin-top:23px;
+    height: 38px;
+    font-weight: 600;
+}
+.mon {
+    margin-top:27px;
+    height: 12px;
+}
+.sunday {
+    margin-top:19px;
+    height: 15px;
+}
+/*Подвал*/
 
 .container {
     width: 100%;
