@@ -45,6 +45,88 @@
  .navigation>li:first-child>a{
     color:#f5d76e;
  }
+/*banner*/
+.header{
+    background-image: url(../image/coffee-shop.jpg);
+    height: 700px;
+    background-size: cover;
+	}
+.coffee-shop {
+  width: 100%;
+
+  object-fit: contain;
+  
+}
+.Welcome{
+    width: 444px;
+    height: 39px;
+    font-family: PlayfairDisplay;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 0.58;
+    text-align: center;
+    color: #f5d76e;
+    margin-left: 20%;
+	margin-top: 200px;
+}
+.Enjoy{
+    width: 436px;
+    height: 39px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 21%;
+}
+.buttonsee {
+    width: 185px;
+    height: 39px;
+    margin-left: 21%;
+    border: solid 2px #ffffff;
+    margin-top: 38px;
+    padding-top: 16px;
+}
+.textsee {
+    width: 66px;
+    height: 10px;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 1.85;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+}
+/*Coffee Text*/
+.Background {
+    width:100%;
+}
+
+.Titlev1 {
+    width:100%;
+    height:33px;
+    font-family:PlayfairDisplay;
+    font-size:32px;
+    font-weight:bold;
+    line-height:0.75;
+    letter-spacing:0.8px;
+    text-align:center;
+    margin-top:98px;
+    color:#2f2f2f;
+}
+
+.Textv2 {
+    width:100%;
+    height:61px;
+    font-family:Lato;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align:center;
+    color: #28211f;
+}
 /*Testiminials*/
 .reviews {
     padding-top:60px;
@@ -128,36 +210,8 @@ blockquote::after {
     top: 23%;
     left: 50%;
     -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-}
-
-/*Coffee Text*/
-.Background {
-    width:100%;
-}
-
-.Titlev1 {
-    width:100%;
-    height:33px;
-    font-family:PlayfairDisplay;
-    font-size:32px;
-    font-weight:bold;
-    line-height:0.75;
-    letter-spacing:0.8px;
-    text-align:center;
-    margin-top:98px;
-    color:#2f2f2f;
-}
-
-.Textv2 {
-    width:100%;
-    height:61px;
-    font-family:Lato;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align:center;
-    color: #28211f;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 /*Location*/
 .location-houston-city {
