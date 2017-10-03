@@ -46,72 +46,90 @@
     color:#f5d76e;
  }
 /*Testiminials*/
-.testimonials{
-    width: 241px;
-    height: 24px;
-    font-family: PlayfairDisplay;
-    font-size: 32px;
+.reviews {
+    padding-top:60px;
+    position: relative;
+}
+.reviews h2 {
+    font-family: PlayfairDisplay, serif;
     font-weight: bold;
-    line-height: 0.75;
-    text-align: left;
-    margin: auto;
-	margin-top: 79px;
-    color: #28211f;
-  }
-.testimonialsimg {
-    height: 425px;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 51px;
+}
+.texttest{
+    margin:0;
+    width:calc(35%);
+    float:right;
+    background-color: #39312f;
+    height:422px;
+}
+.authorreview{
+    weight:100%;
+    height:422px;
     object-fit: contain;
-    padding-top: 60px;
-    margin-top: 30px;
+    padding-bottom: 15px;
 }
-.bruno-bergher {
-    border-radius: 50px; 
-    margin-left:80%;
-    margin-top:30px;
+blockquote {
+    background-color: #39312f;
+    text-align: center;
+    margin: 0;
+    padding-top: 200px;
+    padding-left: 90px;
+    padding-right: 90px;
+    position: relative;
 }
-.chris-parker{
-    width 118px;
-    height 17 px;
-    font-family:PlayfairDisplay;
-    font-size:20px;
-    font-weight:bold;
-    line-height:1.2;
-    padding-left:79%;
-    color:#f5d76e;
-
+blockquote p {
+    color: #ffffff;
 }
-.nisi-elit-consequat{
-    width:256px;
-    height75px;
-    font-family:Lato;
-    font-size:16px;
-    line-height:1.31;
-    text-align:center;
-    color:#ffffff;
-    padding-left:74%;
-}
-.layer {
-    opacity: 0.1;
-    width: 111px;
-    height: 50px;
-    font-family: PlayfairDisplay;
+blockquote::before {
+    content: ".01";
     font-size: 90px;
+    font-family: PlayfairDisplay, serif;
     font-weight: bold;
-    line-height: 0.23;
-    margin-left:67%;
-
-  
+    color: #ffffff;
+    opacity: 0.03;
+    position: absolute;
+    top: 5%;
+    left: 5%;
 }
-.layer1{
-    width: 77px;
-    height: 57px;
-    opacity: 0.1;
-    font-family: PlayfairDisplay;
-    font-size: 200px;
+blockquote::after {
+    content: ",,";
+    font-size: 190px;
+    font-family: PlayfairDisplay, serif;
     font-weight: bold;
-    line-height: 0.11;
-    text-align: left;
-    margin-left:90%;
+    color: #ffffff;
+    opacity: 0.03;
+    letter-spacing: -9px;
+    position: absolute;
+    top: 40%;
+    left: 77%;
+}
+.author-review {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+.author {
+    color: #f5d76e;
+    font-family: PlayfairDisplay, serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.author::before {
+    content: url("../image/bruno-bergher.png");
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
 }
 /*Location*/
 .location-houston-city {
