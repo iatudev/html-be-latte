@@ -255,26 +255,11 @@
 }
 }
 /*Location*/
-.location-houston-city {
-    width: auto;
-    height: 425px;
-    object-fit: contain;
-	padding-bottom: 15px;
-}
-.location-left {
-    background-color: #f5d76e;
-    float:left;
-    width: 36%;
-    height: 425px;
-    margin-left:15px;
-}
-.location-right {
-    height: 425px;
-    width:calc(64% - 30px);
-    float:right;
-    margin-right:15px;
-}
+@charset "utf-8";
+/* CSS Document */
 .location {
+    padding-top: 80px;
+    cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
     text-transform:uppercase;
     width: 167px;
     height: 84px;
@@ -282,10 +267,22 @@
     font-size: 32px;
     font-weight: bold;
     line-height: 0.75;
-    text-align: left;
     color: #28211f;
     margin:auto;
-	padding-top: 80px;
+}
+.location-houston-city {
+    cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
+    width: auto;
+    height: 425px;
+    object-fit: contain;
+    padding-bottom: 15px;
+}
+.location-left {
+    background-color: #f5d76e;
+    height: 425px;
+}
+.location-right {
+    height: 425px;
 }
 .location-menu-max {
     text-transform:uppercase;
@@ -332,6 +329,30 @@
 .sunday {
     margin-top:19px;
     height: 15px;
+}
+@media(min-width:700px){
+.location-left {
+    float:left;
+    width: 36%;
+    margin-left:15px;
+}
+.location-right {
+    float:right;
+    width:calc(64% - 30px);
+    margin-right:15px;
+}
+}
+@media(max-width:699px){
+.location-left {
+    width: calc(100% - 30px);
+    float:left;
+    margin-left:15px;
+}
+.location-right {
+    width:calc(100% - 30px);
+    float:left;
+    margin-left:15px;
+}
 }
 /*Подвал*/
 
