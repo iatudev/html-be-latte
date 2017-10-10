@@ -128,55 +128,88 @@
     color: #28211f;
 }
 /*Testiminials*/
-.reviews {
-    padding-top:60px;
-    position: relative;
-}
-.reviews h2 {
-    font-family: PlayfairDisplay, serif;
-    font-weight: bold;
-    font-size: 35px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 51px;
-}
-.texttest{
-    margin:0;
-    width:calc(35%);
-    float:right;
-    background-color: #39312f;
-    height:422px;
-}
-.authorreview{
-    weight:100%;
-    height:422px;
+.testimomnials__all{
+    cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
+    width: auto;
+    height: 425px;
     object-fit: contain;
-    padding-bottom: 15px;
+    cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
 }
-blockquote {
-    background-color: #39312f;
-    text-align: center;
-    margin: 0;
-    padding-top: 200px;
-    padding-left: 90px;
-    padding-right: 90px;
-    position: relative;
+.testimomnials{
+    cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
+	padding-top:60px;
+    text-transform:uppercase;
+    width: 241px;
+    height: 84px;
+    font-family: PlayfairDisplay;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 0.75;
+    color: #28211f;
+    margin:auto;
 }
-blockquote p {
-    color: #ffffff;
+.testimomnials__left {
+    cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
+    background-color: #f5d76e;
+    height: 425px;
+    margin-left:15px;
+    background-image: url(../image/left.png);
+    background-size:100% 100%;
 }
-blockquote::before {
+.testimomnials__right {
+    cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
+    height: 425px;
+    margin-right:15px;
+    background-image: url(../image/right.png);
+    background-size:100% 100%;
+}
+.testimomnials__author {
+    cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
+    color: #f5d76e;
+    font-family: PlayfairDisplay, serif;
+    font-weight: 600;
+    font-size: 20px;
+	text-align:center;
+	float:right;
+	position:absolute;
+	width:118px;
+	margin-top:210px;
+}
+.testimomnials__author2{
+    cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
+    position:absolute;
+	margin-top:112px;
+}
+.testimomnials__author3{
+    cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
+    text-align:center;
+    position:absolute;
+	margin-top:155px;
+	margin-top:240px;
+	color:#ffffff;
+}
+@media (min-width: 700px){
+.testimomnials__left {
+    float:left;
+    width: 65%;
+}
+.testimomnials__right {
+    width:calc(35% - 30px);
+    float:right;
+}
+
+.testimomnials__right::before {
     content: ".01";
     font-size: 90px;
     font-family: PlayfairDisplay, serif;
     font-weight: bold;
     color: #ffffff;
     opacity: 0.03;
-    position: absolute;
-    top: 5%;
+    position:relative;
+    top: -15%;
     left: 5%;
 }
-blockquote::after {
+.testimomnials__right::after {
     content: ",,";
     font-size: 190px;
     font-family: PlayfairDisplay, serif;
@@ -184,34 +217,42 @@ blockquote::after {
     color: #ffffff;
     opacity: 0.03;
     letter-spacing: -9px;
-    position: absolute;
-    top: 40%;
-    left: 77%;
+    position: relative;
+    top:40%;
+    right: -45%;	
 }
-.author-review {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    margin: 0;
-    padding: 0;
+.testimomnials__author {
+	left:calc(81.5% - 59px);
 }
-.author {
-    color: #f5d76e;
-    font-family: PlayfairDisplay, serif;
-    font-weight: 600;
-    font-size: 20px;
+.testimomnials__author2{
+	width:84px;
+	left:calc(81.5% - 42px);
 }
-.author::before {
-    content: url("../image/bruno-bergher.png");
-    position: absolute;
-    top: 23%;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+.testimomnials__author3{
+	left:calc(81.5% - 128px);
+	width:256px;
+}
+}
+@media(max-width: 699px){
+.testimomnials__left {
+    width: calc(100% - 30px);
+}
+.testimomnials__right {
+    width:calc(100% - 30px);
+    float:left;
+    margin-left:15px;
+}
+.testimomnials__author {
+	left:calc(50% - 40px);
+}
+.testimomnials__author2{
+	left:calc(50% - 30px);
+}
+.testimomnials__author3{
+    font-size: 10pt;
+	width:240px;
+	left:calc(52% - 120px);
+}
 }
 /*Location*/
 .location-houston-city {
