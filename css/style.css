@@ -127,6 +127,135 @@
     text-align:center;
     color: #28211f;
 }
+/*Блок COFFEE*/
+ .item-1::before 
+  {
+     background-repeat: no-repeat;
+  
+     width: 395.9px;
+  
+     height: 293.9px;
+  
+}
+ .Menu {
+    text-transform:uppercase;
+    width: 167px;
+    height: 84px;
+    font-family: PlayfairDisplay;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 0.75;
+    text-align: left;
+    color: #28211f;
+    margin:auto;
+	padding-top: 80px;
+	text-align: center;
+}
+
+.menu-basic
+ {
+     float: left; 
+     margin-left:15px;
+	 list-style: none;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+     -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+     -ms-flex-negative: 1;
+     flex-shrink: 1;
+ 
+}
+
+.menu-basic b 
+ {
+     position: absolute;
+     font-family: 'Playfair Display', serif;
+     text-transform: uppercase;
+     font-size: 40px;
+     top: 30%;
+     left: 50%;
+     -webkit-transform: translateX(-50%);
+     -ms-transform: translateX(-50%);
+     transform: translateX(-50%);
+     text-align: center;
+     
+  }
+     
+.menu-basic table 
+ {
+     width: 270px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 30px;
+ 
+}
+.menu-basic td:first-of-type {
+    font-weight: 800;
+}
+
+.item-3
+ {
+    position: relative;
+ }
+/*Блок TEA*/
+ .item-1::before {
+   /* content: url("image/tea-realisticshots.png");*/
+    background-repeat: no-repeat;
+    width: 397.2px;
+    height: 295px;
+}
+
+.item-2 {
+	text-align: left;
+}
+
+.menu-offers {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+}
+
+.menu-offers b {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-align: center;
+ }
+
+.menu-offers table {
+    font-family: 'Lato', serif;
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.menu-offers td:first-of-type {
+    font-weight: 800;
+}
+
+.item-1 {
+	position:relative;
+    text-align: center;
+	width: 100%;
+}
 /*Testiminials*/
 .testimomnials__all{
     cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
