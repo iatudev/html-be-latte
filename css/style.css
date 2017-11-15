@@ -115,6 +115,25 @@ cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
 	width:100%;
 	max-width:1920px;
 }
+.icon-coffee {
+    width:39px;
+    height:39px;
+    margin:80px auto;
+}
+.button-see-full-menu-block {
+    width:234px;
+    height:60px;
+    color: #000000;
+    background: rgba(0,0,0,0);
+    border: solid 2px #000000;
+    font-weight: 900;
+    text-transform:uppercase;
+    text-align:center;
+}
+.button-see-full-menu-block-min {
+    width:234px;
+    margin:auto;
+}
 .menu-text {
     font-family: PlayfairDisplay;
     font-size: 32px;
@@ -170,9 +189,6 @@ cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
 	text-align:center;
 	margin:auto;
 }
-.location {
-    margin-top:550px;
-}
 .location-left {
     background-color: #f5d76e;
     height: 425px;
@@ -226,7 +242,7 @@ cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
 @media(min-width:1000px){
 .menu-blocks {
 	width:32%;
-	height:500px;
+	height:800px;
 	float:left;
 	margin-left:1%;
 }
@@ -241,7 +257,7 @@ cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
     padding-top:220px;
 }
 .menu-bottom-left {
-	margin-top:45px;
+	padding-top:45px;
 	float:left;
     margin-left:14%;  
     font-family: Lato;
@@ -249,6 +265,7 @@ cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
 	font-size: 16px;
     line-height: 1.75;
     text-align: left;
+    height:206px;
 }
 .menu-bottom-right {
 	margin-top:45px;
@@ -257,9 +274,10 @@ cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
     font-family: Lato;
 	font-size: 16px;
     line-height: 1.75;
+    height:206px;
 }
 .testimonials-all {
-    margin-top:1000px;
+    height: 560px;
 }
 .testimonials-left {
     height: 425px;
@@ -332,6 +350,9 @@ cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
     line-height: 1.75;
     text-align: left;
 }
+.testimonials-all {
+    height: 850px;
+}
 .menu-bottom-right {
 	margin-top:45px;
 	float:right;
@@ -366,6 +387,11 @@ cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
     width:640px;
     left:calc(52% - 320px);
 }
+.location-houston-city {
+    width: auto;
+    height: 930px;
+    margin-bottom:15px;
+}
 .location-left {
     width: calc(100% - 30px);
     float:left;
@@ -383,7 +409,6 @@ cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
     width: 100%;
     height: 308px;
     background-color: #39312f;
-    margin-top:150px;
 }
 .social {
     text-align: center;
@@ -402,9 +427,5 @@ cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
     color: #ffffff;
     padding-top: 35px;
     
-}
-@media(max-width:999px) {
-.container {
-    margin-top:1000px;
 }
 }
