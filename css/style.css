@@ -124,6 +124,21 @@ cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
 	margin-top:60px;
 	margin-bottom:60px;
 }
+.text-coffee {
+    font-family: PlayfairDisplay;
+    font-size: 32px;
+    font-weight: bold;
+	text-transform:uppercase;
+	text-align:center;
+	margin-top:60px;
+}
+.text-block { 
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #28211f;
+}
 .menu-top-coffe {
 	background-image: url(../image/cup-of-coffee.png);
 	background-size:cover;
