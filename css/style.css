@@ -10,7 +10,7 @@ cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
     max-width: 1200px;
     margin: 0 auto;
 }
-.head {
+.header {
     width:100%;
     height:100px;
     background-color: rgba(0, 0, 0, 0.35);
@@ -53,6 +53,36 @@ cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
     height: 700px;
     background-size: cover;
 }
+@media (max-width: 1000px){
+.logo {
+    display: none;
+	width: 0px;
+	
+}
+
+.navigation {
+    margin-left: 0px;
+}
+
+.navigation>li>a {
+    font-family:PlayfairDisplay;
+    font-size:50px;
+    color:#fff;
+    font-weight:bold;
+    line-height:100px;
+    text-decoration:none;
+}	
+
+#logo2 {
+    margin-right: 0px;
+}
+}
+
+.header-head-text {
+    margin:auto;
+	width:100%;
+	max-width:1920px;
+}
 .coffee-shop {
     width: 100%;
     object-fit: contain;
@@ -78,6 +108,7 @@ cursor: url(../image/Arrow.cur), url(../image/Arrow.cur), default;
     margin-left: calc(20% - 80px);
 }
 }
+
 .Enjoy {
     width: 436px;
     height: 39px;
